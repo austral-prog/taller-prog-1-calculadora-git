@@ -27,13 +27,13 @@ def menu_principal():
             print(f"Factorial: {factorial(num)}")
 
         elif opcion == 4:
-<<<<<<< HEAD
+ HEAD
             a = int(input("ingrese su primer numero:" ))
             b = int(input("ingrese su segundo numero:" ))
             print(f"Resultado de la division: {a/b}")
-=======
+
             print("programar es lo mas")
->>>>>>> c7eeb24349894d5c957386bf79b5b2b224f5e6ac
+ c7eeb24349894d5c957386bf79b5b2b224f5e6ac
             
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
