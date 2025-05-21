@@ -35,7 +35,7 @@ def menu_principal():
             else:
                 print(f"Su número es negativo")
                 
-=======
+        elif opcion == 5:    
             print("programar es lo mas")
             
 >>>>>>> c7eeb24349894d5c957386bf79b5b2b224f5e6ac
