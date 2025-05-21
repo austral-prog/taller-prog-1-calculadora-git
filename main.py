@@ -8,8 +8,9 @@ def menu_principal():
     print("2. Operaciones avanzadas")
     print("3. Operaciones especiales")
     print("4. Programar es lo mas")
-    print("5. Numero lindo o feo")
-    print("6. Salir")
+    print("5. Prog es lo mas")
+    print("6. Feo o Lindo")
+    print("7. Salir")
 
     try:
         opcion = int(input("Seleccione una opción: "))
@@ -29,9 +30,17 @@ def menu_principal():
             print(f"Factorial: {factorial(num)}")
 
         elif opcion == 4:
+            a = int(input("Ingrese su número: "))
+            b = int(input("Ingrese su número: "))
+            if (a-b) > 0:
+                print(f"Su número es positivo")
+            else:
+                print(f"Su número es negativo")
+                
+        elif opcion == 5:    
             print("programar es lo mas")
             
-        elif opcion == 5:
+        elif opcion == 6:
 	    a = input("Un numero:")
 		if a == 6 or a == 2 or a == 10:
 		    print("Tu numero es lindo")
