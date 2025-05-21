@@ -1,6 +1,5 @@
 from operaciones.basicas import suma
-from operaciones.avanzadas import potencia
-from operaciones.especiales import factorial
+from operaciones.avanzadas import potenciafrom operaciones.especiales import factorial
 
 def menu_principal():
     print("\n=== CALCULADORA COLABORATIVA ===")
@@ -26,17 +25,18 @@ def menu_principal():
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
 
-        elif opcion == 4:
-<<<<<<< HEAD
-            a = int(input("Ingrese su número: "))
-            b = int(input("Ingrese su número: "))
-            if (a-b) > 0:
-                print(f"Su número es positivo")
-            else:
-                print(f"Su número es negativo")
-                
-        elif opcion == 5:    
-            print("programar es lo mas")
+    elif opcion == 4:
+        a = int(input("Ingrese su número: "))
+        b = int(input("Ingrese otro número: "))
+        if (a - b) > 0:
+            print("Su número es positivo")
+        else:
+            print("Su número es negativo")
+
+    elif opcion == 5:
+        print("programar es lo mas")
+ 
+>>>>>>> 82d2d96 (Update main.py)
             
 >>>>>>> c7eeb24349894d5c957386bf79b5b2b224f5e6ac
     except ValueError:
