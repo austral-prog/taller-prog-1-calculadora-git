@@ -25,6 +25,10 @@ def menu_principal():
         elif opcion == 3:
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
+
+        elif opcion == 4:
+            num = int(input('Ingrese un número entero: '))
+            print(f'Resultado del doble: {num * 2}')
             
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
