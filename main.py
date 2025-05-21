@@ -29,6 +29,7 @@ def menu_principal():
         elif opcion == 4:
             num = int(input('Ingrese un número entero: '))
             print(f'Resultado del doble: {num * 2}')
+            #hola que tal 
             
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
