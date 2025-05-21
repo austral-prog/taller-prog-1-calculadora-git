@@ -25,6 +25,11 @@ def menu_principal():
         elif opcion == 3:
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
+
+        elif opcion == 4:
+            a = float(input("Ingresar un numero: "))
+            b = float(input("Ingresar otro numero: "))
+            print(f'Resultado de la resta: {a - b}')
             
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
