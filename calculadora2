@@ -1,0 +1,3 @@
+a = float(input("Ingresar un numero: "))
+b = float(input("Ingresar otro numero: "))
+print(f'Resultado de la resta: {a - b}')
