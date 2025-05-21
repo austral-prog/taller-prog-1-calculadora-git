@@ -25,7 +25,15 @@ def menu_principal():
         elif opcion == 3:
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
-            
+
+        elif opcion == 4:
+            a = int(input("Ingrese su número: "))
+            b = int(input("Ingrese su número: "))
+            if (a-b) > 0:
+                print(f"Su número es positivo")
+            else:
+                print(f"Su número es negativo")
+                
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
 
