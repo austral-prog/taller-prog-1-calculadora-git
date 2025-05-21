@@ -27,19 +27,17 @@ def menu_principal():
         elif opcion == 3:
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
-<<<<<<< HEAD
 
         elif opcion == 4:
             print("programar es lo mas")
             
-=======
-       elif opcion == 5:
+        elif opcion == 5:
 	    a = input("Un numero:")
 		if a == 6 or a == 2 or a == 10:
 		    print("Tu numero es lindo")
 		else:
 		    print("Tu numero no es lindo")
->>>>>>> CalcBrunoTomas
+
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
 
