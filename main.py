@@ -3,8 +3,7 @@ from operaciones.avanzadas import potenciafrom operaciones.especiales import fac
 
 def menu_principal():
     print("\n=== CALCULADORA COLABORATIVA ===")
-    print("1. Operaciones básicas")
-    print("2. Operaciones avanzadas")
+    print("1. Operaciones básicas")    print("2. Operaciones avanzadas")
     print("3. Operaciones especiales")
     print("4. Salir")
 
@@ -25,20 +24,15 @@ def menu_principal():
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
 
-    elif opcion == 4:
-        a = int(input("Ingrese su número: "))
-        b = int(input("Ingrese otro número: "))
-        if (a - b) > 0:
-            print("Su número es positivo")
-        else:
-            print("Su número es negativo")
 
-    elif opcion == 5:
-        print("programar es lo mas")
+        elif opcion == 4:
+            a = int(input("ingrese su primer numero:" ))
+            b = int(input("ingrese su segundo numero:" ))
+            print(f"Resultado de la division: {a/b}")
+            print("programar es lo mas")
  
->>>>>>> 82d2d96 (Update main.py)
+>>>>>>> cb0e00df629e4bfb2abc98ab9a34369c819f7a44
             
->>>>>>> c7eeb24349894d5c957386bf79b5b2b224f5e6ac
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
 
