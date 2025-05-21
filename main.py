@@ -7,7 +7,8 @@ def menu_principal():
     print("1. Operaciones básicas")
     print("2. Operaciones avanzadas")
     print("3. Operaciones especiales")
-    print("4. Salir")
+    print("4. Verificar si el numero es lindo")
+    print("5. Salir")
 
     try:
         opcion = int(input("Seleccione una opción: "))
@@ -25,7 +26,12 @@ def menu_principal():
         elif opcion == 3:
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
-            
+       elif opcion == 4:
+	    a = input("Un numero:")
+		if a == 6 or a == 2 or a == 10:
+		    print("Tu numero es lindo")
+		else:
+		    print("Tu numero no es lindo")
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
 
