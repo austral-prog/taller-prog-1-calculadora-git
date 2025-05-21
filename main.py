@@ -7,7 +7,9 @@ def menu_principal():
     print("1. Operaciones básicas")
     print("2. Operaciones avanzadas")
     print("3. Operaciones especiales")
-    print("4. Salir")
+    print("4. Programar es lo mas")
+    print("5. Numero lindo o feo")
+    print("6. Salir")
 
     try:
         opcion = int(input("Seleccione una opción: "))
@@ -25,10 +27,19 @@ def menu_principal():
         elif opcion == 3:
             num = int(input("Ingrese número entero: "))
             print(f"Factorial: {factorial(num)}")
+<<<<<<< HEAD
 
         elif opcion == 4:
             print("programar es lo mas")
             
+=======
+       elif opcion == 5:
+	    a = input("Un numero:")
+		if a == 6 or a == 2 or a == 10:
+		    print("Tu numero es lindo")
+		else:
+		    print("Tu numero no es lindo")
+>>>>>>> CalcBrunoTomas
     except ValueError:
         print("Error: Ingrese valores numéricos válidos")
 
